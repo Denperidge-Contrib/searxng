@@ -442,14 +442,14 @@ engines:
     disabled: true
     categories: [it, software wikis]
 
-  # Responded with 404 when implementing
-  # - name: nixos wiki unofficial
-  #   engine: mediawiki
-  #   shortcut: nixwu
-  #   base_url: https://nixos.wiki/
-  #   search_type: text
-  #   disabled: true
-  #   categories: [it, software wikis]
+  - name: nixos wiki unofficial
+    engine: mediawiki
+    shortcut: nixwu
+    base_url: https://nixos.wiki/
+    search_type: text
+    disabled: true
+    categories: [it, software wikis]
+    api_path: api.php
 
   - name: artic
     engine: artic
